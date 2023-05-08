@@ -156,7 +156,37 @@ main {
     font-size: 25px;
 }
 
+@media only screen and (max-width: 2000px) {
+    .zero{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1140px) {
+    .zero{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 900px) {
+    .zero{
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 700px) {
+    .zero{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 400px) {
+    .zero{
+        font-size: 6px;
+    }
+}
+
 .zero {
+
     background: linear-gradient(328deg, rgba(51,51,51,1) 0%, rgba(8,58,111,1) 30%, rgba(0,133,186,1) 100%);
     display: grid;
     grid-template-columns: repeat(6, 1fr);
