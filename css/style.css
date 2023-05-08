@@ -11,6 +11,7 @@
   --cor-bordas-menus: white;
   --cor-ao-passar: #0085BA;
   --cor-borda-inferior: lightslategray;
+  --size: 20px;
 }
 
 * {
@@ -187,15 +188,14 @@ footer div p {
 
 .hist {
     font-size: 26px;
-    }
+    text-align: justify;
+}
 
 .block {
     border: 1px solid var(--cor-fonte);
     font-size: 22px;
+    text-align: justify;
 } 
 
-.mural a {
-    text-decoration: none;
-    font-size: 20px;
-    color: #fff;
-}
+
+
