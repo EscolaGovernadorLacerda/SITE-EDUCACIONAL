@@ -22,7 +22,7 @@
 }
 
 body {
-    min-width: 450px;
+min-width: 450px;
   background-color: var(--cor-fundo);
   min-height: 100vh;
 }
@@ -193,3 +193,9 @@ footer div p {
     border: 1px solid var(--cor-fonte);
     font-size: 22px;
 } 
+
+.mural a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}

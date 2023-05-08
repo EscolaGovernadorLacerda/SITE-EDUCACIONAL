@@ -70,6 +70,12 @@
     padding: 5px;
 }
 
+.m {
+    grid-area: m;
+    height: 100%;
+    padding: 5px;
+}
+
 /* .primeiro {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -194,3 +200,4 @@
     'b d f'
     'h i j';
 }
+
