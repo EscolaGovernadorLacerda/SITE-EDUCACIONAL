@@ -1,2 +1,2 @@
 # SITE-EDUCACIONAL
-Site educacional criando pelos alunos da própria entidade escolar!!!
+Site educacional criado pelos alunos: Eduardo Rech, Felipe Cagnin, Henrique Bonetti, João Adada e Matheus Genero.
