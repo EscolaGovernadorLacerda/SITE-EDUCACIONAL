@@ -1,0 +1,188 @@
+.a {
+  grid-area: a;
+  height: 100%;
+  padding: 5px;
+}
+
+.b {
+  grid-area: b;
+  height: 100%;
+  padding: 5px;
+}
+
+.c {
+  grid-area: c;
+  height: 100%;
+  padding: 5px;
+}
+
+.d {
+  grid-area: d;
+  height: 100%;
+  padding: 5px;
+}
+
+.e {
+  grid-area: e;
+  height: 100%;
+  padding: 5px;
+}
+
+.f {
+  grid-area: f;
+  height: 100%;
+  padding: 5px;
+}
+
+.g {
+  grid-area: g;
+  height: 100%;
+  padding: 5px;
+}
+
+.h {
+  grid-area: h;
+  height: 100%;
+  padding: 5px;
+}
+
+.i {
+  grid-area: i;
+  height: 100%;
+  padding: 5px;
+}
+
+.j {
+  grid-area: j;
+  height: 100%;
+  padding: 5px;
+}
+
+.k {
+  grid-area: k;
+  height: 100%;
+  padding: 5px;
+}
+
+.l {
+  grid-area: l;
+  height: 100%;
+  padding: 5px;
+}
+
+.m {
+  grid-area: m;
+  height: 100%;
+  padding: 5px;
+}
+
+.segundo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-template-areas:
+    "a b d"
+    "a c d"
+    "a e d";
+}
+
+.terceiro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  grid-template-areas:
+    "a b"
+    "c d";
+}
+
+.quarto {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-template-areas:
+    "a b c"
+    "d e f";
+}
+
+.quinto {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-template-areas:
+    "a b c"
+    "a b c"
+    "a b c"
+    "d e f"
+    "g h i"
+    "j k l";
+}
+
+.sexto {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  grid-template-areas: "a b";
+}
+
+.setimo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-template-areas:
+    "a a a"
+    "b d f"
+    "c e g";
+}
+
+.oitavo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-template-areas:
+    "a a a"
+    "b e f"
+    "b e f";
+}
+
+.nono {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-template-areas:
+    "e b c"
+    "e d a";
+}
+
+.decimo {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: auto;
+  grid-template-areas:
+    "c c a a a"
+    "c c b b b";
+}
+
+.onze {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-template-areas: "a b c";
+}
+
+.titulos {
+  margin-left: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  text-align: center;
+  grid-template-areas:
+    "g g g"
+    "a c e"
+    "b d f"
+    "h i j";
+}

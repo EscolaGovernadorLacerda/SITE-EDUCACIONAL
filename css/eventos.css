@@ -1,0 +1,120 @@
+.titulos {
+  margin-left: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.a {
+  grid-area: a;
+  height: 100%;
+  padding: 5px;
+}
+
+.b {
+  grid-area: b;
+  height: 100%;
+  padding: 5px;
+}
+
+.c {
+  grid-area: c;
+  height: 100%;
+  padding: 5px;
+}
+
+.d {
+  grid-area: d;
+  height: 100%;
+  padding: 5px;
+}
+
+.e {
+  grid-area: e;
+  height: 100%;
+  padding: 5px;
+}
+
+.f {
+  grid-area: f;
+  height: 100%;
+  padding: 5px;
+}
+
+.g {
+  grid-area: g;
+  height: 100%;
+  padding: 5px;
+}
+
+.h {
+  grid-area: h;
+  height: 100%;
+  padding: 5px;
+}
+
+.i {
+  grid-area: i;
+  height: 100%;
+  padding: 5px;
+}
+
+.j {
+  grid-area: j;
+  height: 100%;
+  padding: 5px;
+}
+
+.k {
+  grid-area: k;
+  height: 100%;
+  padding: 5px;
+}
+
+.l {
+  grid-area: l;
+  height: 100%;
+  padding: 5px;
+}
+
+.m {
+  grid-area: m;
+  height: 100%;
+  padding: 5px;
+}
+
+.n {
+  grid-area: n;
+  height: 100%;
+  padding: 5px;
+}
+
+.o {
+  grid-area: o;
+  height: 100%;
+  padding: 5px;
+}
+
+.p {
+  grid-area: p;
+  height: 100%;
+  padding: 5px;
+}
+
+.q {
+  grid-area: q;
+  height: 100%;
+  padding: 5px;
+}
+
+.festajulina {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: auto;
+  grid-template-areas:
+    "a a a b b b"
+    "m m n n p p"
+    "k k o o q q"
+    "g g h h j j"
+    "c c i i l l"
+    "d d e e f f";
+}
